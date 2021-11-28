@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Screening test3</title>
+<script type="text/javascript"><p>
+function boxy(n)
+{
+	n=document.getElementById("number").value;
+	for(i=1;i<=n;i++)
+	{
+		document.write("--");
+	}
+	document.write("<br>");
+	for(i=1;i<=n;i++)
+	{
+		document.write("|"+i+"|");
+	}
+	document.write("<br>");
+	for(i=1;i<=n;i++)
+	{
+		document.write("--")				
+	}
+	document.write("<br>");
+	
+}
+</p></script>
+</head>
+<body>
+<form>
+<label>Enter a number</label><br>
+<input type="text" id="number" name="number"><br>
+<input type="button" value="click" onclick="boxy(n)"><br>
+</form>
+</body>
+</html>
